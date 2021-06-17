@@ -1,0 +1,271 @@
+body{display: flex;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin: 0%;
+}
+
+.Menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  
+}
+
+.Menu span{
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Barra-icon div{
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+.responsiveMenu ul{
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  background-color: #333;
+  font-size: 16px;
+  color: #fff;
+  position: fixed;
+  height: 1000%;
+  width: 85.4%;
+  right: 0px;
+  top: 0px;
+  margin: 0px;
+  padding: 20px 0px;
+
+}
+
+.responsiveMenu ul li{
+  text-align: right;
+  margin: 7px 0;
+  padding: 0px 20px;
+}
+
+.responsiveMenu ul li:nth-child(1){
+  text-align: left;
+}
+
+.responsiveMenu ul li:hover{
+  background-color: #c4c4c4;
+  color: #333;
+}
+
+.responsiveMenu:hover ul{
+  display: block;
+
+}
+
+.formulario{
+  position: absolute;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  width: 371px;
+  height: 290px;
+  left: 20px;
+  top: 110px;
+}
+
+.formulario h1{
+  display: none;
+}
+
+
+label{
+  position: absolute;
+  background-color: white;
+  color: #333;
+  text-align: left;
+  font-size: 14px;
+  width: 371px;
+  height: 22,22px;
+  
+
+}
+select{
+  background-color: white;
+  color: #333;
+  border: solid 1px #333;
+  border-radius: 4px;
+  width: 371px;
+  height: 32px;
+  top: 25px;
+  margin: 20px 0;
+  
+  
+}
+
+.mercadoria input{
+  background-color: white;
+  border-radius: 4px;
+  color: #333;
+  width: 371px;
+  height: 32px;
+  top: 24px;
+  margin: 24PX 0;
+  
+  
+}
+
+.valor input{
+  background-color:white;
+  border-radius: 4px;
+  color: #333;
+  width: 371px;
+  height: 32px;
+  top: 24px;
+  margin: 24px 0;
+
+}
+
+button{ 
+  position: relative;
+  background-color: #333;
+  border-radius: 4px;
+  color: #c4c4c4;
+  width: 371px;
+  height: 32px;
+  margin: 5px 0;
+
+}
+
+.linha{
+  width: 371px;
+  height: 1px;
+  background-color: #333;
+  margin: 20px 0;
+}
+
+.extrato{
+  position: absolute;
+  background-color: white;
+  width: 371px;
+  height: 281px;
+  top: 410px;
+  padding: 15px;
+}
+.extrato h1{
+color: #000;
+text-align: center;
+font-size: 18px;
+left: 20px;
+margin: 10px 0;
+
+}
+
+footer{
+  position:absolute;
+  background-color: #333;
+  width:100%;
+  height: 8px;
+  top: 723px;
+}
+
+/*---------------------*/
+  @media (min-width:1024px) {
+
+    .Menu{
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    
+    }
+    
+    .responsiveMenu ul{
+      display: flex;
+      flex-direction:row;
+      position: relative;
+      width: 350px;
+      height: 40px;
+      background-color: white;
+      color: #333;
+    }
+
+    .responsiveMenu ul li{
+      border-left: 1px solid #333;
+    }
+
+    .responsiveMenu li:nth-child(2){
+    border: 0;
+    }
+
+    .responsiveMenu ul li:nth-child(1){
+      display: none;
+    }
+
+    .Barra-icon{
+        display: none;
+    }
+    
+
+    .formulario{
+      display: block;
+      justify-content: center;
+      border: solid 1px #333;
+      border-radius: 4px;
+      background-color: white;
+      width: 400px;
+      height: 344px;
+      left: 20px;
+      top: 130px;
+      padding: 20px;
+    }
+
+    .formulario h1{
+      display: block;
+      background-color: #fff;
+      color: black;
+      text-align: center;
+      font-size: 18px;
+      width: 100%;
+      height: 20px;
+      top: 20px;
+
+    }
+
+    .linha{
+      display: none;
+    }
+
+   .extrato{
+     position: absolute;
+    background-color: white;
+    width: 812px;
+    height:281px;
+    left: 440px;
+    top: 90px;
+    margin: 40px;
+    padding: 20px;
+
+
+   }
+
+   .extrato span{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    width: 174px;
+    height: 20px;
+    left: 339px;
+   }
+   
+  }
+
+
+
+
