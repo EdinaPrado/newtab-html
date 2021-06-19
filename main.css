@@ -175,8 +175,7 @@ footer{
 }
 
 }
-
-/* @media screen and (min-width:768px){
+ @media screen and (min-width:768px){
 
   .Menu{
     display: flex;
@@ -240,27 +239,42 @@ footer{
   }
 
   .formulario{
-    display:flex;    
+    display:flex;
+    flex-wrap: wrap;    
     justify-content:space-around; 
     border: solid 1px #333;
     border-radius: 4px;
     background-color: white;
     width: 728px;
-    height: 189px;
+    height: 219px;
     left: 20px;
   }
 
+  .formulario h1{
+    display: block;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 20px;
+    top: 20px;
+
+  }
   
   label{
-    display: flex;
+    position: initial;
     background-color: white;
     color: #333;
     text-align: left;
     font-size: 14px;
-    width: 150px;
-    height: 22,22px;
-  
+    width: 371px;
+
   }
+
+  
+
 
   select{
     display: flex;
@@ -312,7 +326,7 @@ button{
   width: 200px;
   height: 33px;
   left: 508;
-  top: 126px;
+  top: 171px;
   
 
 }
@@ -337,7 +351,7 @@ button{
    background-color: white;
    width: 728px;
    height: 281px;
-   right: 20px;
+   right: 40px;
  }
 
  footer{
@@ -348,7 +362,7 @@ button{
   top: 723px;
 }
 
-}*/
+}
 
 /*---------------------*/
 @media screen and (min-width:1024px) {
@@ -399,7 +413,7 @@ button{
     border-radius: 4px;
     background-color: white;
     width: 400px;
-    height: 344px;
+    height: 435px;
     left: 20px;
     top: 130px;
     padding: 20px;
@@ -417,7 +431,8 @@ button{
 
   }
 
-  label{position: absolute;
+  label{
+    position: initial;
     background-color: white;
     color: #333;
     text-align: left;
@@ -463,13 +478,13 @@ button{
   }
   
   button{ 
-    position: relative;
+    position:initial;
     background-color: #333;
     border-radius: 4px;
     color: #c4c4c4;
     width: 371px;
     height: 32px;
-    margin: 5px 0;
+    margin: 25px 0;
   
   }
   
