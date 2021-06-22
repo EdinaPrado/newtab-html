@@ -47,6 +47,7 @@ body{
   top: 0px;
   margin: 0px;
   padding: 20px 0px;
+  z-index: 1;
 
 }
 
@@ -210,11 +211,12 @@ footer{
     color: #fff;
     position: fixed;
     height: 1000%;
-    width: 85.4%;
+    width: 32.9%;
     right: 0px;
     top: 0px;
     margin: 0px;
     padding: 20px 0px;
+    z-index: 1;
   
   }
   
